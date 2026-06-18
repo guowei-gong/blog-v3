@@ -7,6 +7,7 @@ image: https://img2.tofaka.com/autoupload/Z3wg1auvHGH_fxQcOFgj2SfNcKcqEnRmcljopn
 type: story
 categories: [技术]
 tags: [游戏, 帧同步]
+recommend: true
 ---
 
 ## 前言

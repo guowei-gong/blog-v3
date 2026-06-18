@@ -6,7 +6,8 @@ updated:
 image: https://img2.tofaka.com/autoupload/Z3wg1auvHGH_fxQcOFgj2SfNcKcqEnRmcljopnyJoMs/20260616/yyJZ/1373X582/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260616163159.png/webp
 type: story
 categories: [技术]
-tags: [概率, 游戏开发]
+tags: [概率, 游戏]
+recommend: true
 ---
 
 ## 前言
