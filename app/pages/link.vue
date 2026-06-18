@@ -6,7 +6,7 @@ const appConfig = useAppConfig()
 const layoutStore = useLayoutStore()
 layoutStore.setAside([])
 
-const { data: postLink } = await useAsyncData(
+const { data: postLink } = useLazyAsyncData(
 	'content:/link',
 	() => queryCollection('content').path('/link').first(),
 )
