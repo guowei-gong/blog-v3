@@ -83,7 +83,7 @@ export default defineAppConfig({
 
 	/** 左侧栏顶部 Logo */
 	header: {
-		logo: 'https://img2.tofaka.com/autoupload/Z3wg1auvHGH_fxQcOFgj2SfNcKcqEnRmcljopnyJoMs/20260616/pRda/1170X1167/%E6%B2%99%E4%BC%98.jpg/webp',
+		logo: 'https://u.fukit.cn/avNLyilhF',
 		/** 展示标题文本，否则展示纯 Logo */
 		showTitle: true,
 		subtitle: blogConfig.subtitle,

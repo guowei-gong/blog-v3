@@ -4,11 +4,11 @@ const basicConfig = {
 	title: '约定的小镇',
 	subtitle: '写代码是热爱，写到世界充满爱',
 	// 长 description 利好于 SEO
-	description: 'Gavin 的个人博客，分享技术与生活。技术文章主要围绕使用 Go 语言构建高性能的游戏后端，同时这个博客还记录了他在生活和学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。',
+	description: '约定的小镇的个人博客，分享技术与生活。技术主要围绕使用 Go 语言构建高性能的 RPG、MMO 和 SLG 游戏后端，同时这个博客还记录了他在生活和学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。',
 	author: {
 		name: '约定的小镇',
-		avatar: 'https://weizicoding.top/api/avatar.png',
-		email: 'guoweigong97@gmail.com',
+		avatar: 'https://u.fukit.cn/avNLyilhF',
+		email: 'gongguowei01@gmail.com',
 		homepage: 'https://weizicoding.top/',
 	},
 	copyright: {
@@ -70,24 +70,24 @@ const blogConfig = {
 	/** 向 <head> 中添加脚本 */
 	scripts: [
 		// 自己部署的 Umami 统计服务
-		{ 'src': 'https://zhi.zhilu.site/zhi.js', 'data-website-id': 'a1997c81-a42b-46f6-8d1d-8fbd67a8ef41', 'defer': true },
+		{ 'src': 'https://cloud.umami.is/script.js', 'data-website-id': 'b01e3285-f92b-4211-8d1c-645c81f202d4', 'defer': true },
 		// 自己网站的 Cloudflare Insights 统计服务
-		{ 'src': 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "97a4fe32ed8240ac8284e9bffaf03962"}', 'defer': true },
+		{ 'src': 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "875db49c293a4063b328315a2c5b1bd8"}', 'defer': true },
 		// Twikoo 评论系统
 		{ src: 'https://lib.baomitu.com/twikoo/1.6.44/twikoo.min.js', defer: true },
 	],
 
 	/** 自己部署的 Twikoo 服务 */
 	twikoo: {
-		envId: 'https://twikoo.zhilu.site/',
-		preload: 'https://twikoo.zhilu.site/',
+		envId: 'https://comment.weizicoding.top',
+		preload: 'https://comment.weizicoding.top',
 	},
 }
 
 /** 用于生成 OPML 和友链页面配置 */
 export const myFeed: FeedEntry = {
 	author: blogConfig.author.name,
-	sitenick: '摸鱼处',
+	sitenick: '',
 	title: blogConfig.title,
 	desc: blogConfig.subtitle || blogConfig.description,
 	link: blogConfig.url,
